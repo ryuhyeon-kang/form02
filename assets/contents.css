@@ -1,0 +1,47 @@
+div.ry-login-box {
+    border : rgb(236, 236, 237) 2px solid;
+    width : 400px;
+    border-radius : 10px;
+}
+
+div.ry-login-box div.ry-login {
+    font-weight : 600;
+    color : #646464;
+    padding : 10px 20px;
+    border-bottom: #dcdcdc 1px solid;
+}
+
+div.ry-login-box form.ry-form div.email input {
+    margin : 10px 17px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+    transition: border-color 0.3s;
+    width: 90%;
+    height : 22px;
+}
+
+div.ry-login-box form.ry-form div.password input {
+    margin : 0px 17px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+    transition: border-color 0.3s;
+    width: 90%;
+    height : 22px;
+}
+
+div.ry-login-box form.ry-form div.boxes {
+    padding : 10px;
+}
+
+div.ry-login-box form.ry-form div.boxes div.checkbox {
+    position: absolute;
+    display : flex;
+    justify-content: flex-start;
+}
+
+div.ry-login-box form.ry-form div.boxes div.button {
+    display : flex;
+    justify-content: flex-end;
+}
